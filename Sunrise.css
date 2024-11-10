@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap');
+:root{
+    --logo : 'Quattrocento';
+}
+*{
+    margin:0px;
+    padding:0px;
+}
+.navbar{
+    height:70px;
+    background-color:black;
+    display:flex;
+    border-width:5px;
+    justify-content: space-around;
+    position: fixed;
+    
+    
+
+
+}
+.navlist{
+    display:flex;
+    margin-left:2rem;
+    margin-top:1.45rem;
+    
+}
+.logo{
+    color:orange;
+    margin-top:1rem;
+    margin-left: 10px;
+    
+
+    
+    
+    
+    font-family: var(--logo);
+    font-weight: 700;
+    font-size:2rem ;
+    color: #ffffcc;
+    text-shadow: 0 0 2px #fff,
+        0 0 10px #fff,
+        0 0 20px orange,
+        0 0 30px orange,
+        0 0 40px orange,
+        0 0 55px orange,
+        0 0 70px orange;
+}
+.navlist a{
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+    padding: 15px 20px;
+    
+}
+.search{
+    height:30px;
+    width:200px;
+    margin-left: 200px;
+    margin-top:1rem;
+    border-radius:10px;
+    padding-left: 10px;
+    border-color:orange;
+    color:black;
+    border-width:3px;
+    border-style:solid;
+}
+.BHK{
+    height:30px;
+    width:100px;
+    margin-left:2rem;
+    margin-top:1rem;
+    border-radius:10px;
+    border-color:orange;
+    
+    border-width:3px;
+    border-style:solid;
+
+}
+.navlist a:hover{
+    background-color:white;
+    color:black;
+    box-shadow: 5px 5px 12px;
+}
+.navlist li:hover{
+    transform: scale(1.1);
+    
+}
+.bg-container{
+    background-color:rgb(30, 30, 30);
+    height:245vh;
+    padding:0px;
+}
+.flat-heading{
+    font-style: cursive;
+    font-size:lage;
+    color:white;
+    padding:20px;
+    margin-left: 20px;
+    
+}
+.image{
+    height:200px;
+    width:200px;
+    padding:20px;
+    border-radius:15%;
+
+}
+.location{
+    margin-left:65px ;
+    color:orange;
+}
+.image:hover{
+    transform:scale(1.1);
+}   
+.bhk{
+    margin-top: px;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'century gothic';
+    color: #ffffcc;
+    text-shadow: 0 0 5px #fff,
+        0 0 0px #fff,
+        0 0 0px orange,
+        0 0 10px orange,
+        0 0 0px orange,
+        0 0 5px orange,
+        0 0 0px orange;
+}
+
+.location1{
+    margin-left:85px ;
+    color:orange;
+}
+.location2{
+    margin-left:55px ;
+    color:orange;
+}
+.location3{
+    margin-left:70px ;
+    color:orange;
+}
+.location4{
+    margin-left:75px ;
+    color:orange;
+}
+.city{
+    display:flex;
+    margin-left:18px;
+    
+}
+.more{
+    height:50px;
+    width:100px;
+    font-size:14px;
+    margin-top: 110px;
+    margin-left: 40px;
+    border-radius:10px;
+    color:black;
+    font-weight:bold;
+}
+.more:hover{
+    transform: scale(1.1);
+}
+.container1{
+    background-color: black;
+    height: 100vh;
+    width:100%;
+    margin-top: 80px;
+    padding: 0px;
+    background-size: cover;
+}
+.para{
+    color:rgb(170, 145, 100);
+    padding-top:40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.vila{
+    display: flex;
+}
+.list{
+    margin-bottom: 10px;
+}
+.para1{
+    color:white;
+}
+.bhk1{
+    margin-top: px;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'century gothic';
+    color: #ffffcc;
+    text-shadow: 0 0 5px #fff,
+        0 0 0px #fff,
+        0 0 0px orange,
+        0 0 10px orange,
+        0 0 0px orange,
+        0 0 5px orange,
+        0 0 0px orange;
+}
+.button{
+    font-size:19px;
+    height: 40px;
+    width:130px;
+    background: transparent;
+    border-style: solid;
+    border-color: orange;
+    color:white;
+    margin-top: 10px;
+    margin-left: 700px;
+    
+}
+.button:hover{
+    transform:scale(1.2)
+}
+.first-card{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.8)), url('https://www.decorilla.com/online-decorating/wp-content/uploads/2024/03/Dark-moody-interior-design-of-a-living-room-by-Decorilla-1024x683.jpg');
+    height: 90vh;
+    background-size: cover;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+.cart{
+    background-color: black;
+    height:100vh;
+    background-size: cover;
+    text-align: center;
+}
+.head{
+    color: white;
+    padding-top:230px;
+    color: #ffffcc;
+    text-shadow: 0 0 2px #fff,
+        0 0 10px #fff,
+        0 0 20px orange,
+        0 0 30px orange,
+        0 0 40px orange,
+        0 0 55px orange,
+        0 0 70px orange;
+    
+}
+.head2{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 50px;
+    font-family: var(--logo);
+    font-weight: 700;
+    
+    color: #ffffcc;
+    text-shadow: 0 0 2px #fff,
+        0 0 10px #fff,
+        0 0 20px orange,
+        0 0 30px orange,
+        0 0 40px orange,
+        0 0 55px orange,
+        0 0 70px orange;
+}
+.contact{
+    background-color: rgb(22, 22, 22);
+    height:50vh;
+    color:white;
+    font-size: 20px;
+}
+.grid-container{
+    display:grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows:30% 30% 30%;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    margin:10px;
+    padding:10px;
+    
+}
+.grid-item{
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif ;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    
+    
+    
+}
+.new{
+    color: white;
+    margin-bottom: 20px;
+}
+.thank{
+    background-color: rgb(22, 22, 22);
+    height:10vh;
+}
+.why{
+    background-color: rgb(22, 22, 22);
+    height:80vh;
+}
+.head5{
+    color:white;
+    padding:40px;
+    text-align: center;
+}
+.para5{
+    color:white;
+    font-size: 25px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
